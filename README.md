@@ -1,4 +1,4 @@
-# RT-Thread-for-Gowin-GW1NSR-4C
+# RT-Thread for Gowin GW1NSR-4C Soc
 Dear friends,
 
 It is my first repository on GitHub about a popular RTOS RT-Thread, which is based on the RT-Thread Nano 3.1.3. The compiler is MDK 5.35. I will try the GCC version.

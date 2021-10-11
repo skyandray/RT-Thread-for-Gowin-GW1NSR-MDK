@@ -1,4 +1,4 @@
-# RT-Thread for Gowin GW1NSR-4C Soc
+# Porting RT-Thread for Gowin GW1NSR-4C Soc
 
 Hello everyone, this project based on RT-THREAD NANO 3.1.3 and GOWIN GW1NSR-4C Soc chip. The compilation environment is MDK 5.35. The GCC version will be developed in the future. In this code, two user threads are running and two leds are controlled. The crystal oscillator on my development board is 27M, so the main frequency of my MCU is 78M. If your main frequency is 80M, you need to modify the __SYSTEM_CLOCK macro.
 
@@ -7,7 +7,8 @@ Finsh is also ported to this project, using UART0, the parameter is 115200 8n1.
 Thanks!
 
 
-#RT-Thread 移值到 高云 GW1NSR-4C 平台
+# RT-Thread 移值到 高云 GW1NSR-4C 平台
+
 大家好，这个项目基于RT-Thread 3.1.3 和 高云 GW1NSR-4C 芯片。编译环境是 MDK 3.35。GCC版本在规划中。
 在代码里，有两个用户线程分别控制两个GPIO的两个LED。我板子上的晶振是27M，所以我的MCU主频是78M。如果你的主频是80M，需要修改代码里的__SYSTEM_CLOCK宏为80000000。
 

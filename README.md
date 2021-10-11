@@ -1,10 +1,7 @@
 # RT-Thread for Gowin GW1NSR-4C Soc
-Dear friends,
 
-It is my first repository on GitHub about a popular RTOS RT-Thread, which is based on the RT-Thread Nano 3.1.3. The compiler is MDK 5.35. I will try the GCC version.
+Hello everyone, this project based on RT-THREAD NANO 3.1.3 and GOWIN GW1NSR-4C Soc chip. The compilation environment is MDK 5.35. The GCC version will be developed in the future. In this code, two user threads are running and two lights are controlled. The crystal oscillator on my development board is 27M, so the main frequency of my MCU is 78M. If your main frequency is 80M, you need to modify the __SYSTEM_CLOCK macro.
 
-Two threads are running in the code, controls two LEDs on/off with different periods.
-
-The crystal on my board is 27MHz, and the frequency to MCU core is 78MHz. If your board runs an 80MHz for MCU, you need to change __SYSTEM_CLOCK defined in the code to 80000000.
+Finsh is also ported to this project, using UART0, the parameter is 115200 8n1.
 
 Thanks!
